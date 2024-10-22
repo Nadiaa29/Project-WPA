@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://wallpapercave.com/wp/wp2106833.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    min-height: 100vh;
+    padding-left: 250px; 
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px; 
+}
+
+.signup-container,
+.login-container {
+    background-color:#c5a146cc; 
+    border-radius: 15px;
+    padding: 20px;
+    width: 350px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+label {
+    margin: 10px 0 5px;
+    font-size: 14px; 
+    color: #000000;
+    width: 100%; 
+    text-align: left;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:   #EEE091;
+    color: rgb(14, 2, 2);
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%; 
+}
+
+button:hover {
+    background-color: #f0efec;
+}
+
+p {
+    margin-top: 15px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
